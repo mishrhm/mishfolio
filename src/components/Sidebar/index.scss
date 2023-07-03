@@ -1,6 +1,6 @@
 .nav-bar {
   background-color: #181818;
-  width: 120px;
+  width: 80px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -34,7 +34,7 @@
 
     a {
       color: #4d4d4e;
-      font-size: 22px;
+      font-size: 30px;
       display: block;
       line-height: 51px;
       position: relative;
@@ -58,7 +58,7 @@
 
       &:after {
         content: "";
-        font-size: 9px;
+        font-size: 18px;
         display: block;
         letter-spacing: 2px;
         position: absolute;
@@ -104,5 +104,18 @@
     list-style: none;
     text-align: center;
     margin: 0;
+  }
+
+  li {
+    a {
+      padding: 7px 0;
+      display: block;
+      font-size: 22px;
+      line-height: 16px;
+
+      &:hover svg {
+        color: #ffd700;
+      }
+    }
   }
 }
